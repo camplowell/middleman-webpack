@@ -7,7 +7,7 @@ This may be maintained sporadically or not at all as things change, and is a res
 ## Installation
 Initialize your Middleman project using the template option:
 ```bash
-middleman your-project init -T camplowell/middleman-webpack
+middleman init your-project -T camplowell/middleman-webpack
 ```
 Then install the yarn dependencies:
 ```bash
