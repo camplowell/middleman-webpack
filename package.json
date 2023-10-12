@@ -1,0 +1,25 @@
+{
+  "name": "middleman_template",
+  "version": "1.0.0",
+  "main": "assets/javascript/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch --progress --color",
+    "build": "webpack --bail -p"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.69.2",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
