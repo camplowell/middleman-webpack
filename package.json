@@ -8,9 +8,7 @@
     "build": "webpack --bail -p"
   },
   "dependencies": {
-    "bootstrap": "^5.3.2",
-    "jquery": "^3.7.1",
-    "popper.js": "^1.16.1"
+    "@floating-ui/dom": "^1.5.3"
   },
   "devDependencies": {
     "css-loader": "^6.8.1",
